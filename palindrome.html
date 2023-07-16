@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav id='cssmenu'>
+      <div class="logo"><a href="https://www.uat.edu"><img src="UAT_space.jpeg" alt="UAT Space" height="100px" width="auto"></a></div>
+      <div id="head-mobile"></div>
+      <div class="button"></div>
+      <ul>
+        <!--<li class='active'><a href='index.html'>HOME</a></li>-->
+        <li><a href='#'>CSC102</a>
+          <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='table.html'>Table</a></li>
+            <li><a href='game.html'>Craps</a></li>
+            <li><a href='palindrome.html'>Palindrome</a></li>
+            <li><a href='meme_audio.html'>Audio</a></li>
+            <li><a href='test.html'>Craps Anime</a></li>
+            <li><a href='boards.html'>Boards</a></li>
+            <li><a href='contact.html'>Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <b><div id="palindrome checker">Palindrome Checker</div></b>
+  <!--creates a div with the id of result -->
+  <!--the b tag makes the div id result appear in bold-->
+  <b><div id="result"></div></b>
+
+  <!--links the pal.js to palindrome.html -->
+  <script src="pal.js"></script>
+  <!--creates a button that calls the checkPalindrome function -->
+  Enter a string: <input type="text" id="inputString" name="inputString" value="" /><br>
+  <!--creates a button that calls the checkPalindrome function -->
+  <button onclick="checkPalindrome()">Check</button>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section about"> 
+          <br>
+          <br>
+          <center><h1 class="logo-text"></h1></center>
+          <center>
+            <div class="contact"> Tim Astras</div><br>
+            <div class="contact"> 2625 W Baseline Rd</div>
+            <div class="contact"> Tempe, AZ 85283</div>
+          </center>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <br>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="game.html">Craps</a></li>
+            <li><a href="palindrome.html">Palindrome</a></li>
+            <li><a href="meme_audio.html">Audio</a></li>
+            <li><a href="test.html">Craps(anmi)</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
